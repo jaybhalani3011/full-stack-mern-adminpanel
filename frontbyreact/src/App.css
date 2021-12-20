@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.error{
+  color: tomato !important;
+}
+
+/* Loader */
+
+.loader{
+  margin: 0 0 2em;
+  height: 100px;
+  width: 20%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Set the color of the Loader icon */
+svg path,
+svg rect{
+  fill: #3498db;
+}
+
+
+/* 404 page not found */
+
+@import url(https://fonts.googleapis.com/css?family=opensans:500);
+
+#clouds{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#clouds .c{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#clouds .c ._404{
+  font-size: 10rem;
+  color: #001529;
+}
+
+#clouds .c ._1{
+  font-size: 2rem;
+}
+
+#clouds .c ._2{
+  font-size: 2rem;
+}
